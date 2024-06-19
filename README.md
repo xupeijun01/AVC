@@ -1,5 +1,5 @@
 # 基于亲和向量一致性的弱监督语义分割
-## 多阶段流程（Multi-Stage Process）
+## 单阶段流程（Single-Stage Process）
 步骤1：
 
 步骤2：
