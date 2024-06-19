@@ -14,5 +14,5 @@ python train_deeplab.py
 python test_deeplab.py
 ```
 | Model        | Backbone   | Google drive | dataset type | Train |   Val   |
-|--------------|------------|--------------|--------------|-------|---------|
-| Deeplab-V1 | ResNet-38 |   [Weights](https://drive.google.com/drive/folders/1b3xzJM6TanoVfff-yIDvfoDe5MfXxKpE)| Pascal VOC 2012 | 75.1 | 74.6 |
+|--------------|------------|:--------------:|--------------|-------|---------|
+| Deeplab-V1 | ResNet-38 |[Weights](https://drive.google.com/drive/folders/1b3xzJM6TanoVfff-yIDvfoDe5MfXxKpE)| Pascal VOC 2012 | 75.1 | 74.6 |
