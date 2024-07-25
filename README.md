@@ -44,19 +44,14 @@ python test_deeplab.py
 
 ### 语义分割质量
 
-| Model        | Backbone   | Google Drive | Dataset Type | *Test* |   *Val*   |
-|:--------------:|:------------:|:--------------:|:--------------:|:-------:|:---------:|
-| Deeplab-V1 | ResNet-38 |[Weights](https://drive.google.com/file/d/1Wsru6lHMhh8gYdO3Uep6XSq8f9BzHghT/view?usp=drive_link)| VOC | [75.1](http://host.robots.ox.ac.uk:8080/anonymous/NHKQPH.html) | [74.6](http://host.robots.ox.ac.uk:8080/anonymous/OE2YQO.html) |
-| Deeplab-V1 | ResNet-38 | - | MS COCO | - | [47.2](https://drive.google.com/file/d/1NarR6JQArhc7gLuSZ1wEDH--HZgY-rRU/view?usp=drive_link) |
-
 <table>
   <tr>
     <th>Model</th>
     <th>Backbone</th>
     <th>Google Drive</th>
     <th>Dataset Type</th>
-    <th>*Test*</th>
-    <th>*Val*</th>
+    <th>Test</th>
+    <th>Val</th>
   </tr>
   <tr>
     <td rowspan="2" align="center">Deeplab-V1</td>
