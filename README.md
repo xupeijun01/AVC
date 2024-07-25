@@ -15,9 +15,7 @@
 ```
 ```
 
-步骤4：
-为了进一步评估方法性能，遵循[MCTformer](https://github.com/xulianuwa/MCTformer)和[ACR](https://github.com/sangrockEG/ACR)等先前工作流程。将Ground Truth标签替换为伪标签掩码（Mask），采用RN38骨干网络训练全监督语义分割模型[DeeplabV1](https://github.com/YudeWang/semantic-segmentation-codebase/tree/main/experiment/seamv1-pseudovoc)。
-To further evaluate the performance of the method, we followed previous research works such as [MCTformer](https://github.com/xulianuwa/MCTformer) and [ACR](https://github.com/sangrockEG/ACR). Replace the Ground Truth label with a pseudo-label mask and use the RN38 backbone network to train a fully supervised semantic segmentation model [DeeplabV1](https://github.com/YudeWang/semantic-segmentation-codebase/tree/main/experiment/seamv1-pseudovoc).
+Step 4: To further evaluate the performance of the method, we followed previous workflows such as [MCTformer](https://github.com/xulianuwa/MCTformer) and [ACR](https://github.com/sangrockEG/ACR). Replace the Ground Truth label with a pseudo-label mask and use the RN38 backbone network to train a fully supervised semantic segmentation model [DeeplabV1](https://github.com/YudeWang/semantic-segmentation-codebase/tree/main/experiment/seamv1-pseudovoc).
 ```
 python train_deeplab.py
 ```
