@@ -20,7 +20,7 @@ python test_deeplab.py
   <tr>
     <th>Model</th>
     <th>Dataset Type</th>
-    <th>Weights</th>
+    <th>Google Drive</th>
     <th>Seed</th>
     <th>+CRF</th>
     <th>Mask</th>
