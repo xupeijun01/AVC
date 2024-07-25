@@ -16,11 +16,6 @@ python test_deeplab.py
 ## 结果（Results）
 ### 种子（Seed）和伪标签掩码（Mask）质量
 
-| Model        | Dataset Type | Weights | Seed | +CRF | Mask |
-|:--------------:|:------------:|:--------------:|:--------------:|:-------:|:---------:|
-| AVC | VOC | [Weights](https://drive.google.com/file/d/1GOAl3B3bywI5plCI3o7YLeEmeTCIAMdq/view?usp=drive_link) | [75.8](https) | [77.5](https) | [77.8](https)|
-| AVC | MS COCO | [Weights](https://drive.google.com/file/d/1yRzMH-LbsK3IidONspOJYuZaNTgdxM96/view?usp=drive_link) | 45.8 | - | [48.4](https://drive.google.com/file/d/1UFEk8uN_81E0hLU50oR9FsiL6QvAon_u/view?usp=drive_link) |
-
 <table>
   <tr>
     <th>Model</th>
@@ -47,9 +42,12 @@ python test_deeplab.py
   </tr>
 </table>
 
+### 语义分割质量
 
-
-
+| Model        | Backbone   | Google Drive | Dataset Type | *Test* |   *Val*   |
+|:--------------:|:------------:|:--------------:|:--------------:|:-------:|:---------:|
+| Deeplab-V1 | ResNet-38 |[Weights](https://drive.google.com/file/d/1Wsru6lHMhh8gYdO3Uep6XSq8f9BzHghT/view?usp=drive_link)| VOC | [75.1](http://host.robots.ox.ac.uk:8080/anonymous/NHKQPH.html) | [74.6](http://host.robots.ox.ac.uk:8080/anonymous/OE2YQO.html) |
+| Deeplab-V1 | ResNet-38 | - | MS COCO | - | [47.2](https://drive.google.com/file/d/1NarR6JQArhc7gLuSZ1wEDH--HZgY-rRU/view?usp=drive_link) |
 
 <table>
   <tr>
@@ -62,23 +60,18 @@ python test_deeplab.py
   </tr>
   <tr>
     <td rowspan="2" align="center">Deeplab-V1</td>
-    <td>ResNet-38</td>
-    <td><a href="https://drive.google.com/drive/folders/1b3xzJM6TanoVfff-yIDvfoDe5MfXxKpE">Weights</a></td>
-    <td>Pascal VOC 2012</td>
-    <td><a href="http://host.robots.ox.ac.uk:8080/anonymous/NHKQPH.html">75.1</a></td>
-    <td><a href="http://host.robots.ox.ac.uk:8080/anonymous/OE2YQO.html">74.6</a></td>
+    <td align="center">ResNet-38</td>
+    <td align="center"><a href="https://drive.google.com/file/d/1Wsru6lHMhh8gYdO3Uep6XSq8f9BzHghT/view?usp=drive_link">Weights</a></td>
+    <td align="center">VOC</td>
+    <td align="center"><a href="http://host.robots.ox.ac.uk:8080/anonymous/NHKQPH.html">75.1</a></td>
+    <td align="center"><a href="http://host.robots.ox.ac.uk:8080/anonymous/OE2YQO.html">74.6</a></td>
   </tr>
   <tr>
-    <td>ResNet-38</td>
-    <td><a href="https://drive.google.com/drive/folders/1b3xzJM6TanoVfff-yIDvfoDe5MfXxKpE">Weights</a></td>
-    <td>Pascal VOC 2012</td>
-    <td><a href="http://host.robots.ox.ac.uk:8080/anonymous/NHKQPH.html">75.1</a></td>
-    <td><a href="http://host.robots.ox.ac.uk:8080/anonymous/OE2YQO.html">74.6</a></td>
+    <td align="center">ResNet-38</td>
+    <td align="center">-</td>
+    <td align="center">MS COCO</td>
+    <td align="center">-</td>
+    <td align="center"><a href="https://drive.google.com/file/d/1NarR6JQArhc7gLuSZ1wEDH--HZgY-rRU/view?usp=drive_link">47.2</a></td>
   </tr>
 </table>
 
-### 语义分割质量
-
-| Model        | Backbone   | Google Drive | Dataset Type | *Test* |   *Val*   |
-|:--------------:|:------------:|:--------------:|:--------------:|:-------:|:---------:|
-| Deeplab-V1 | ResNet-38 |[Weights](https://drive.google.com/drive/folders/1b3xzJM6TanoVfff-yIDvfoDe5MfXxKpE)| Pascal VOC 2012 | [75.1](http://host.robots.ox.ac.uk:8080/anonymous/NHKQPH.html) | [74.6](http://host.robots.ox.ac.uk:8080/anonymous/OE2YQO.html) |
