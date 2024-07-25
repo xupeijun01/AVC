@@ -16,36 +16,12 @@ python test_deeplab.py
 ## 结果（Results）
 ### 种子（Seed）和伪标签掩码（Mask）质量
 
-| Model        | Dataset Type | Seed | Weights | +CRF | Mask |
+| Model        | Dataset Type | Weights | Seed | +CRF | Mask |
 |:--------------:|:------------:|:--------------:|:--------------:|:-------:|:---------:|
-| AVC | VOC |  | [75.8](https) | [77.5](https) | [77.8](https)|
-| AVC | MS COCO |  | 45.8 | - | [48.4](https://drive.google.com/file/d/1UFEk8uN_81E0hLU50oR9FsiL6QvAon_u/view?usp=drive_link) |
+| AVC | VOC | [Weights](https://drive.google.com/file/d/1GOAl3B3bywI5plCI3o7YLeEmeTCIAMdq/view?usp=drive_link) | [75.8](https) | [77.5](https) | [77.8](https)|
+| AVC | MS COCO | [Weights](https://drive.google.com/file/d/1yRzMH-LbsK3IidONspOJYuZaNTgdxM96/view?usp=drive_link) | 45.8 | - | [48.4](https://drive.google.com/file/d/1UFEk8uN_81E0hLU50oR9FsiL6QvAon_u/view?usp=drive_link) |
 
-<table>
-  <tr>
-    <th>Model</th>
-    <th>Dataset Type</th>
-    <th>Seed</th>
-    <th>Weights</th>
-    <th>+CRF</th>
-    <th>Mask</th>
-  </tr>
-  <tr>
-    <td rowspan="2" align="center">AVC</td>
-    <td>VOC</td>
-    <td></td>
-    <td><a href="https://example.com">75.8</a></td>
-    <td><a href="https://example.com">77.5</a></td>
-    <td><a href="https://example.com">77.8</a></td>
-  </tr>
-  <tr>
-    <td>MS COCO</td>
-    <td></td>
-    <td>45.8</td>
-    <td>-</td>
-    <td><a href="https://drive.google.com/file/d/1UFEk8uN_81E0hLU50oR9FsiL6QvAon_u/view?usp=drive_link">48.4</a></td>
-  </tr>
-</table>
+
 
 
 
