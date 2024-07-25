@@ -69,3 +69,56 @@ python test_deeplab.py
   </tr>
 </table>
 
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .table-title {
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<div class="table-title">分割质量</div>
+
+<table>
+  <tr>
+    <th>Model</th>
+    <th>Backbone</th>
+    <th>Google Drive</th>
+    <th>Dataset Type</th>
+    <th>Test</th>
+    <th>Val</th>
+  </tr>
+  <tr>
+    <td rowspan="2" align="center">Deeplab-V1</td>
+    <td rowspan="2" align="center">ResNet-38</td>
+    <td align="center"><a href="https://drive.google.com/file/d/1Wsru6lHMhh8gYdO3Uep6XSq8f9BzHghT/view?usp=drive_link">Weights</a></td>
+    <td align="center">VOC</td>
+    <td align="center"><a href="http://host.robots.ox.ac.uk:8080/anonymous/NHKQPH.html">75.1</a></td>
+    <td align="center"><a href="http://host.robots.ox.ac.uk:8080/anonymous/OE2YQO.html">74.6</a></td>
+  </tr>
+  <tr>
+    <td align="center">-</td>
+    <td align="center">MS COCO</td>
+    <td align="center">-</td>
+    <td align="center"><a href="https://drive.google.com/file/d/1NarR6JQArhc7gLuSZ1wEDH--HZgY-rRU/view?usp=drive_link">47.2</a></td>
+  </tr>
+</table>
+
+</body>
+</html>
+
+
