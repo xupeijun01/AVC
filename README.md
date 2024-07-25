@@ -32,20 +32,21 @@ python test_deeplab.py
   </tr>
   <tr>
     <td rowspan="2" align="center">AVC</td>
-    <td>VOC</td>
-    <td><a href="https://drive.google.com/file/d/1GOAl3B3bywI5plCI3o7YLeEmeTCIAMdq/view?usp=drive_link">Weights</a></td>
-    <td><a href="https">75.8</a></td>
-    <td><a href="https">77.5</a></td>
-    <td><a href="https">77.8</a></td>
+    <td align="center">VOC</td>
+    <td align="center"><a href="https://drive.google.com/file/d/1GOAl3B3bywI5plCI3o7YLeEmeTCIAMdq/view?usp=drive_link">Weights</a></td>
+    <td align="center"><a href="https">75.8</a></td>
+    <td align="center"><a href="https">77.5</a></td>
+    <td align="center"><a href="https">77.8</a></td>
   </tr>
   <tr>
-    <td>MS COCO</td>
-    <td><a href="https://drive.google.com/file/d/1yRzMH-LbsK3IidONspOJYuZaNTgdxM96/view?usp=drive_link">Weights</a></td>
-    <td>45.8</td>
-    <td>-</td>
-    <td><a href="https://drive.google.com/file/d/1UFEk8uN_81E0hLU50oR9FsiL6QvAon_u/view?usp=drive_link">48.4</a></td>
+    <td align="center">MS COCO</td>
+    <td align="center"><a href="https://drive.google.com/file/d/1yRzMH-LbsK3IidONspOJYuZaNTgdxM96/view?usp=drive_link">Weights</a></td>
+    <td align="center">45.8</td>
+    <td align="center">-</td>
+    <td align="center"><a href="https://drive.google.com/file/d/1UFEk8uN_81E0hLU50oR9FsiL6QvAon_u/view?usp=drive_link">48.4</a></td>
   </tr>
 </table>
+
 
 
 
