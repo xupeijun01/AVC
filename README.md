@@ -20,12 +20,12 @@
 ```
 python train_deeplab.py
 ```
-生成分割效果并评估语义分割模型
+Generate segmentation results and evaluate semantic segmentation models
 ```
 python test_deeplab.py
 ```
-## 实验结果（Experimental Results）
-### 种子（Seed）和伪标签掩码（Mask）质量
+## Experimental Results
+### Initial Seed and Pseudo-Label Mask Quality
 
 <table>
   <tr>
@@ -53,7 +53,7 @@ python test_deeplab.py
   </tr>
 </table>
 
-### 语义分割质量
+### Semantic Segmentation Quality
 
 <table>
   <tr>
