@@ -2,12 +2,18 @@
 ## 多阶段流程（Multi-Stage Process）
 步骤1：下载训练数据集
 
+```
+```
 
 步骤2：生成初始种子标签（Seed）
 
+```
+```
 
 步骤3：利用CRF或[PSA](https://github.com/jiwoon-ahn/psa)细化初始种子标签（Seed），生成语义分割掩码（Mask）
 
+```
+```
 
 步骤4：
 为了进一步评估方法性能，遵循先前研究工作[MCTformer](https://github.com/xulianuwa/MCTformer)和[ACR](https://github.com/sangrockEG/ACR)，采用RN38骨干网络训练全监督语义分割模型[DeeplabV1](https://github.com/YudeWang/semantic-segmentation-codebase/tree/main/experiment/seamv1-pseudovoc)
