@@ -13,7 +13,7 @@ python train_deeplab.py
 ```
 python test_deeplab.py
 ```
-## 结果（Results）
+## 实验结果（Experimental Results）
 ### 种子（Seed）和伪标签掩码（Mask）质量
 
 <table>
