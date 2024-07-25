@@ -1,4 +1,4 @@
-# 基于亲和向量一致性的弱监督语义分割
+# 基于亲和向量一致性的弱监督语义分割（Weakly Supervised Semantic Segmentation Based on Affnity Vector Consistency）
 ## 多阶段流程（Multi-Stage Process）
 步骤1：下载PASCAL VOC 2012和MS COCO 2014数据集
 
