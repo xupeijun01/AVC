@@ -60,14 +60,13 @@ python test_deeplab.py
   </tr>
   <tr>
     <td rowspan="2" align="center">Deeplab-V1</td>
-    <td align="center">ResNet-38</td>
+    <td rowspan="2" align="center">ResNet-38</td>
     <td align="center"><a href="https://drive.google.com/file/d/1Wsru6lHMhh8gYdO3Uep6XSq8f9BzHghT/view?usp=drive_link">Weights</a></td>
     <td align="center">VOC</td>
     <td align="center"><a href="http://host.robots.ox.ac.uk:8080/anonymous/NHKQPH.html">75.1</a></td>
     <td align="center"><a href="http://host.robots.ox.ac.uk:8080/anonymous/OE2YQO.html">74.6</a></td>
   </tr>
   <tr>
-    <td align="center">ResNet-38</td>
     <td align="center">-</td>
     <td align="center">MS COCO</td>
     <td align="center">-</td>
