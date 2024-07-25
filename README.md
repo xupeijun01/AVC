@@ -9,7 +9,7 @@
 ```
 python train_deeplab.py
 ```
-步骤4：测试评估模型
+步骤4：生成并评估分割模型
 ```
 python test_deeplab.py
 ```
