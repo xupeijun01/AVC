@@ -30,8 +30,8 @@ python test_deeplab.py
     <td align="center">VOC</td>
     <td align="center"><a href="https://drive.google.com/file/d/1GOAl3B3bywI5plCI3o7YLeEmeTCIAMdq/view?usp=drive_link">Weights</a></td>
     <td align="center"><a href="https">75.8</a></td>
-    <td align="center"><a href="https">77.5</a></td>
-    <td align="center"><a href="https">77.8</a></td>
+    <td align="center"><a href="https://drive.google.com/file/d/1v1HsX_Lc00TnEPveQGl7LlLJLbE5CNiE/view?usp=drive_link">77.5</a></td>
+    <td align="center"><a href="https://drive.google.com/file/d/14-1WR1V6zm3RFAwDnuABeDUZCQkkULYu/view?usp=drive_link">77.8</a></td>
   </tr>
   <tr>
     <td align="center">MS COCO</td>
