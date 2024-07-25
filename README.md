@@ -1,16 +1,16 @@
 # 基于亲和向量一致性的弱监督语义分割(Weakly Supervised Semantic Segmentation Based on Affnity Vector Consistency)
-## 多阶段流程（Multi-Stage Process）
-步骤1：下载PASCAL VOC 2012和MS COCO 2014数据集
+## Multi-Stage Process
+Step 1: Download PASCAL VOC 2012 and MS COCO 2014 datasets
 
 ```
 ```
 
-步骤2：生成初始种子标签（Seed）
+Step 2: Generate initial seed label (Seed)
 
 ```
 ```
 
-步骤3：利用CRF或[PSA](https://github.com/jiwoon-ahn/psa)细化初始种子标签（Seed），生成伪分割掩码标签（Mask）
+Step 3: Use CRF or PSA to refine the initial seed label (Seed) and generate a pseudo mask label (Mask)
 
 ```
 ```
