@@ -5,7 +5,7 @@
 步骤2：
 
 步骤3：
-训练全监督语义分割模型DeeplabV1-ResNet38
+为了进一步评估方法性能，遵循先前研究工作[MCTformer](https://github.com/xulianuwa/MCTformer)和[ACR](https://github.com/sangrockEG/ACR)，采用ResNet38骨干网络训练全监督语义分割模型[DeeplabV1](https://github.com/YudeWang/semantic-segmentation-codebase/tree/main/experiment/seamv1-pseudovoc)
 ```
 python train_deeplab.py
 ```
