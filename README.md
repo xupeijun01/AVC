@@ -1,7 +1,7 @@
 # 基于亲和向量一致性的弱监督语义分割(Weakly Supervised Semantic Segmentation Based on Affnity Vector Consistency)
 ## Download datasets
 * For the PASCAL VOC 2012 dataset, you can download it from the [official website](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar). In addition, you need to download the augmented annotations [SegmentationClassAug.zip](https://www.dropbox.com/scl/fi/xccys1fus0utdioi7nj4d/SegmentationClassAug.zip?rlkey=0wl8iz6sc40b3qf6nidun4rez&e=1&dl=0) from the [SBD dataset](https://www.cs.cornell.edu/~bharathh/).
-* For the MS COCO 2014 dataset, you need to download the [training set](http://images.cocodataset.org/zips/train2014.zip) and [validation set](http://images.cocodataset.org/zips/val2014.zip) separately from the [official website](https://cocodataset.org/). At the same time, download the corresponding [segmentation labels](https://drive.google.com/file/d/147kbmwiXUnd2dW9_j8L5L0qwFYHUcP9I/).
+* For the MS COCO 2014 dataset, you can download the [training set](http://images.cocodataset.org/zips/train2014.zip) and [validation set](http://images.cocodataset.org/zips/val2014.zip) separately from the [official website](https://cocodataset.org/). At the same time, download the corresponding [segmentation labels](https://drive.google.com/file/d/147kbmwiXUnd2dW9_j8L5L0qwFYHUcP9I/).
 ## Usage
 
 Step 1: Train AVC
