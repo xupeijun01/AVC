@@ -27,6 +27,32 @@ python test_deeplab.py
 | **Deeplab-V1**   | ResNet-38  | [Weights](https://drive.google.com/drive/folders/1b3xzJM6TanoVfff-yIDvfoDe5MfXxKpE) | Pascal VOC 2012 | [75.1](http://host.robots.ox.ac.uk:8080/anonymous/NHKQPH.html) | [74.6](http://host.robots.ox.ac.uk:8080/anonymous/OE2YQO.html) |
 |                  |            | [Weights](https://drive.google.com/drive/folders/1b3xzJM6TanoVfff-yIDvfoDe5MfXxKpE) | Pascal VOC 2012 | [75.1](http://host.robots.ox.ac.uk:8080/anonymous/NHKQPH.html) | [74.6](http://host.robots.ox.ac.uk:8080/anonymous/OE2YQO.html) |
 
+<table>
+  <tr>
+    <th>Model</th>
+    <th>Backbone</th>
+    <th>Google Drive</th>
+    <th>Dataset Type</th>
+    <th>*Test*</th>
+    <th>*Val*</th>
+  </tr>
+  <tr>
+    <td rowspan="2" align="center">Deeplab-V1</td>
+    <td>ResNet-38</td>
+    <td><a href="https://drive.google.com/drive/folders/1b3xzJM6TanoVfff-yIDvfoDe5MfXxKpE">Weights</a></td>
+    <td>Pascal VOC 2012</td>
+    <td><a href="http://host.robots.ox.ac.uk:8080/anonymous/NHKQPH.html">75.1</a></td>
+    <td><a href="http://host.robots.ox.ac.uk:8080/anonymous/OE2YQO.html">74.6</a></td>
+  </tr>
+  <tr>
+    <td>ResNet-38</td>
+    <td><a href="https://drive.google.com/drive/folders/1b3xzJM6TanoVfff-yIDvfoDe5MfXxKpE">Weights</a></td>
+    <td>Pascal VOC 2012</td>
+    <td><a href="http://host.robots.ox.ac.uk:8080/anonymous/NHKQPH.html">75.1</a></td>
+    <td><a href="http://host.robots.ox.ac.uk:8080/anonymous/OE2YQO.html">74.6</a></td>
+  </tr>
+</table>
+
 
 ### 语义分割质量
 
