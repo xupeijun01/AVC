@@ -1,21 +1,26 @@
 # 基于亲和向量一致性的弱监督语义分割(Weakly Supervised Semantic Segmentation Based on Affnity Vector Consistency)
 ## Multi-Stage Process
-Step 1: Download PASCAL VOC 2012 and MS COCO 2014 datasets
+Step 1: Download datasets
+For the PASCAL VOC 2012 dataset, you can download it from the [official website](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar). 
+```
+```
+
+Step 2: Train AVC
 
 ```
 ```
 
-Step 2: Generate initial seed label (Seed)
+Step 3: Generate initial seed label (Seed)
 
 ```
 ```
 
-Step 3: Use CRF or PSA to refine the initial seed label (Seed) and generate a pseudo mask label (Mask)
+Step 4: Use CRF or [PSA](https://github.com/jiwoon-ahn/psa) to refine the initial seed label (Seed) and generate a pseudo mask label (Mask)
 
 ```
 ```
 
-Step 4: To further evaluate the performance of the method, we followed previous workflows such as [MCTformer](https://github.com/xulianuwa/MCTformer) and [ACR](https://github.com/sangrockEG/ACR). Replace the Ground Truth label with a pseudo-label mask and use the RN38 backbone network to train a fully supervised semantic segmentation model [DeeplabV1](https://github.com/YudeWang/semantic-segmentation-codebase/tree/main/experiment/seamv1-pseudovoc).
+Step 5: To further evaluate the performance of the method, we followed previous workflows such as [MCTformer](https://github.com/xulianuwa/MCTformer) and [ACR](https://github.com/sangrockEG/ACR). Replace the Ground Truth label with a pseudo-label mask and use the RN38 backbone network to train a fully supervised semantic segmentation model [DeeplabV1](https://github.com/YudeWang/semantic-segmentation-codebase/tree/main/experiment/seamv1-pseudovoc).
 ```
 python train_deeplab.py
 ```
