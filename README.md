@@ -28,9 +28,7 @@ Generate segmentation results and evaluate semantic segmentation models
 python test_deeplab.py
 ```
 ## Experimental Results
-<p align = "center">
 Initial Seed and Pseudo-Label Mask Quality
-</p>
 
 <table  align="center">
   <tr>
@@ -58,9 +56,7 @@ Initial Seed and Pseudo-Label Mask Quality
   </tr>
 </table>
 
-<p align = "center">
 Semantic Segmentation Quality
-</p>
 
 <table  align="center">
   <tr>
@@ -87,7 +83,7 @@ Semantic Segmentation Quality
   </tr>
 </table>
 
-## Other results
+## Other Results
 Comparison of affinity map between the original method (second row) and the AVC method (third row)
 <p align="center">
   <img src="fig.png" width="720" title="Comparison of affinity map between the original method (second row) and the AVC method (third row)" >
