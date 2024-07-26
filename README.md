@@ -87,10 +87,10 @@ Semantic Segmentation Quality
   </tr>
 </table>
 
-<p align="center">
-  <img src="fig.png" width="720" title="Comparison of affinity map between the original method (second row) and the AVC method (third row)" >
-</p>
 <p align = "center">
 Comparison of affinity map between the original method (second row) and the AVC method (third row)
+</p>
+<p align="center">
+  <img src="fig.png" width="720" title="Comparison of affinity map between the original method (second row) and the AVC method (third row)" >
 </p>
 
