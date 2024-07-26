@@ -87,5 +87,5 @@ Semantic Segmentation Quality
 ## Other Results
 Comparison of affinity map between the original method (second row) and the AVC method (third row)
 <p align="center">
-  <img src="fig3.png" width="720" title="Comparison of affinity map between the original method (second row) and the AVC method (third row)" >
+  <img src="fig4.png" width="720" title="Comparison of affinity map between the original method (second row) and the AVC method (third row)" >
 </p>
