@@ -28,9 +28,11 @@ Generate segmentation results and evaluate semantic segmentation models
 python test_deeplab.py
 ```
 ## Experimental Results
+<p align = "center">
 Initial Seed and Pseudo-Label Mask Quality
+</p>
 
-<table>
+<table  align="center">
   <tr>
     <th>Model</th>
     <th>Dataset Type</th>
@@ -56,9 +58,11 @@ Initial Seed and Pseudo-Label Mask Quality
   </tr>
 </table>
 
+<p align = "center">
 Semantic Segmentation Quality
+</p>
 
-<table>
+<table  align="center">
   <tr>
     <th>Model</th>
     <th>Backbone</th>
