@@ -2,31 +2,7 @@
 ## Download datasets
 * For the PASCAL VOC 2012 dataset, you can download it from the [official website](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar). In addition, you need to download the augmented annotations [SegmentationClassAug.zip](https://www.dropbox.com/scl/fi/xccys1fus0utdioi7nj4d/SegmentationClassAug.zip?rlkey=0wl8iz6sc40b3qf6nidun4rez&e=1&dl=0) from the [SBD dataset](https://www.cs.cornell.edu/~bharathh/).
 * For the MS COCO 2014 dataset, you can download the [training set](http://images.cocodataset.org/zips/train2014.zip) and [validation set](http://images.cocodataset.org/zips/val2014.zip) from the [official website](https://cocodataset.org/). At the same time, download the corresponding [segmentation labels](https://drive.google.com/file/d/147kbmwiXUnd2dW9_j8L5L0qwFYHUcP9I/).
-## Usage
 
-Step 1: Train AVC
-
-```
-```
-
-Step 2: Generate initial seed label (Seed)
-
-```
-```
-
-Step 3: Use CRF or [PSA](https://github.com/jiwoon-ahn/psa) to refine the initial seed label (Seed) and generate a pseudo mask label (Mask)
-
-```
-```
-
-Step 4: To further evaluate the performance of the method, we followed previous workflows such as [MCTformer](https://github.com/xulianuwa/MCTformer) and [ACR](https://github.com/sangrockEG/ACR). Replace the Ground Truth label with a pseudo-label mask and use the RN-38 backbone network to train a fully supervised semantic segmentation model [DeeplabV1](https://github.com/YudeWang/semantic-segmentation-codebase/tree/main/experiment/seamv1-pseudovoc).
-```
-python train_deeplab.py
-```
-Generate segmentation results and evaluate semantic segmentation models
-```
-python test_deeplab.py
-```
 ## Experimental Results
 Initial Seed and Pseudo-Label Mask Quality
 
@@ -88,4 +64,30 @@ Comparison of affinity map between the original method (second row) and the AVC 
 <p align="center">
   <img src="fig3.png" width="720" title="Comparison of affinity map between the original method (second row) and the AVC method (third row)" >
 </p>
+
+## Usage
+
+Step 1: Train AVC
+
+```
+```
+
+Step 2: Generate initial seed label (Seed)
+
+```
+```
+
+Step 3: Use CRF or [PSA](https://github.com/jiwoon-ahn/psa) to refine the initial seed label (Seed) and generate a pseudo mask label (Mask)
+
+```
+```
+
+Step 4: To further evaluate the performance of the method, we followed previous workflows such as [MCTformer](https://github.com/xulianuwa/MCTformer) and [ACR](https://github.com/sangrockEG/ACR). Replace the Ground Truth label with a pseudo-label mask and use the RN-38 backbone network to train a fully supervised semantic segmentation model [DeeplabV1](https://github.com/YudeWang/semantic-segmentation-codebase/tree/main/experiment/seamv1-pseudovoc).
+```
+python train_deeplab.py
+```
+Generate segmentation results and evaluate semantic segmentation models
+```
+python test_deeplab.py
+```
 
