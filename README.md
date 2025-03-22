@@ -8,16 +8,19 @@
 Step 1: Train AVC
 
 ```
+python train_AVC.py --model_path $Backbone_model_path
 ```
 
 Step 2: Generate initial seed label (Seed)
 
 ```
+python infer_cam.py --model_path $AVC_model_path
 ```
 
 Step 3: Use CRF or [PSA](https://github.com/jiwoon-ahn/psa) to refine the initial seed label (Seed) and generate a pseudo mask label (Mask)
 
 ```
+python train_aff.py
 ```
 
 Step 4: To further evaluate the performance of the method, we followed previous workflows such as [MCTformer](https://github.com/xulianuwa/MCTformer) and [ACR](https://github.com/sangrockEG/ACR). Replace the Ground Truth label with a pseudo-label mask and use the RN-38 backbone network to train a fully supervised semantic segmentation model [DeeplabV1](https://github.com/YudeWang/semantic-segmentation-codebase/tree/main/experiment/seamv1-pseudovoc).
