@@ -16,11 +16,22 @@ Step 2: Generate initial seed label (Seed)
 ```
 python infer_cam.py --model_path $AVC_model_path
 ```
-
-Step 3: Use CRF or [PSA](https://github.com/jiwoon-ahn/psa) to refine the initial seed label (Seed) and generate a pseudo mask label (Mask)
-
 ```
-python train_aff.py
+python evaluation.py --comment train_cam --predict_dir data/AVC/out_cam
+```
+
+Step 3: Use CRF or [PSA](https://github.com/jiwoon-ahn/psa) to refine the initial seed label (Seed) and generate pseudo-label mask (Mask)
+Step 3.1: Train PSA
+```
+python train_aff.py --model_path res38_cls.pth
+```
+Step 3.2: Using PSA for random walk propagation
+```
+python infer_aff.py --model_path resnet38_aff.pth
+```
+Step 3.3: Evaluate pseudo-label masks
+```
+python evaluation.py --comment train_rw --predict_dir data/AVC/out_rw --type png
 ```
 
 Step 4: To further evaluate the performance of the method, we followed previous workflows such as [MCTformer](https://github.com/xulianuwa/MCTformer) and [ACR](https://github.com/sangrockEG/ACR). Replace the Ground Truth label with a pseudo-label mask and use the RN-38 backbone network to train a fully supervised semantic segmentation model [DeeplabV1](https://github.com/YudeWang/semantic-segmentation-codebase/tree/main/experiment/seamv1-pseudovoc).
