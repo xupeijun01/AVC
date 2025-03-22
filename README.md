@@ -11,16 +11,21 @@ Step 1: Train AVC
 python train_AVC.py --model_path $Backbone_model_path
 ```
 
-Step 2: Generate initial seed label (Seed)
+Step 2: Initial seed generation and evaluation
+
+Step 2.1: Generate initial seed label (Seed)
 
 ```
 python infer_cam.py --model_path $AVC_model_path
 ```
+
+Step 2.2: Evaluating initial seeds
 ```
 python evaluation.py --comment train_cam --predict_dir data/AVC/out_cam
 ```
 
 Step 3: Use CRF or [PSA](https://github.com/jiwoon-ahn/psa) to refine the initial seed label (Seed) and generate pseudo-label mask (Mask)
+
 Step 3.1: Train PSA
 ```
 python train_aff.py --model_path res38_cls.pth
